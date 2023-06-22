@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_HOST = "http://13.209.88.4:8080";
+const API_HOST = "https://guestbook.jmoomin.com";
 
 export const getArticleByOwnerId = (ownerId) => {
   return axios.get(`${API_HOST}/${ownerId}/articles`);
